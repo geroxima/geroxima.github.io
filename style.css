@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+:root {
+    --pink: #3a0ca3;
+}
+
+body{
+    background: #f6f5f7; 
+    font-family: 'Montserrat', sans-serif;
+    color: #3E363F;
+}
+
+input {
+    border-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
+	width: 70%;
+    padding: 12px 15px;
+    text-align: center;
+    border: none;
+    background-color: #eee;
+}
+
+button {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	padding: 12px 45px;
+    margin-top: 20px;
+	border-radius: 30px;
+	background-color: var(--pink);
+	border: 1px solid var(--pink);
+	color: #FFFFFF;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: transform 20ms ease-in;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+
+#contenedor{
+    width: 900px;
+    height: 500px;
+    text-align: center;
+    /* Estas 3 lineas se encargan de centrar el div vertical y horizontalmente */
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden; 
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+      0 10px 10px rgba(0,0,0,0.22);
+  }
+  
+
+#calculadora{
+    background: white;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#detalle{
+    background: var(--pink);
+    width: 50%;
+    height: 100%;
+    float: left;
+    color: #f6f5f7;
+    
+}
+
+.contenido{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    padding: 40px;
+}
+
+
+
+#error{
+    color: red;
+    font-weight: bold;
+    display: none;
+}
+
+.resultado{
+    color: #0A81D1;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 5px;
+    display: none;
+}
+
+
