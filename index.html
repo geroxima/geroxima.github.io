@@ -1,31 +1,26 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola Mundo</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap">
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: 'Nunito Sans', sans-serif;
-            background-color: cornflowerblue;
-            color: white;
-        }
-
-        h1 {
-            font-size: 36px;
-            font-weight: bold;
-        }
-
-        
-    </style>
-</head>
-<body>
-    <h1>Hola Mundo! Soy Adán Alvarez</h1>
-</body>
+<html>
+	<head>
+        <title>Calculadora de hidratación</title>
+    </head>
+	<body>
+        <div>
+            <div>
+                <h1>Hidratación Basal</h1>
+                <input type="number" placeholder="Peso en kg" />
+                <p>* Debe completar todos los datos</p>
+                <button>Calcular</button>
+                <p>71cc/h</p>
+                <p>m+m/2 : 105cc/h</p>
+            </div>
+            <div>
+                <h1>¿Como se calcula?</h1>
+                <ul>
+                    <li>De 0kg a 10kg, se calcula 100cc por cada kilo.</li>
+                    <li>Se suman 50cc por cada kilo de peso por arriba de 10kg, hasta 20kg</li>
+                    <li>De 20kg para arriba, se suman 20cc por cada kilo adicional</li>
+                </ul>
+            </div>
+        </div>
+    </body>
 </html>
